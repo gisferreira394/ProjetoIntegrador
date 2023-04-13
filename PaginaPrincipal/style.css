@@ -10,7 +10,7 @@ body{
    top: 0;
     background-color: #71734C;
     color: #71734C;
-    height: 35px;
+    height: 40px;
 }
 .segcabecalho{
     position: absolute;
@@ -39,6 +39,7 @@ body{
     right: 0;
     height: 300px;
     top: 50px;
+    color: white;
 }
 
 .carousel-item{
@@ -85,15 +86,20 @@ body{
     border-radius: 10%;
     margin-left: 5px;
     margin-top: 5px;
+    background-color: white;
     
 }
 .preco{
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
+margin-left: 5px;
+
 }
 .nome{
     margin-top: -20px;
-    font-size: 15px;
+    font-size: 17px;
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
