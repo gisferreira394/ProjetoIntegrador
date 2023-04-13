@@ -62,6 +62,39 @@ body{
     object-fit: cover;
 }
 
+/* parte dos produtos */
+.produtos{
+    display: inline-flex;
+
+}
+.bloco{
+    background-color: #F27979;
+    width: 202px;
+    height: 260px;
+    margin-top: 120px;
+    margin-left: 45px;
+    border-radius: 10%;
+   
+    
+
+}
+.imagem-p{
+    width: 190px;
+    height: 190px;
+    background-size: cover;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+.preco{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+.nome{
+    margin-top: -20px;
+    font-size: 15px;
+}
 
 
 
