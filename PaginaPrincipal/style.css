@@ -62,6 +62,15 @@ body{
     object-fit: cover;
 }
 
+.novidades{
+    position: absolute;
+width: 402px;
+height: 239px;
+left: 188px;
+top: 1145px;
 
+background: #71734C;
+border-radius: 57px;
+}
 
 
