@@ -3,6 +3,11 @@ body {
     height: 1000px;
 }
 
+
+header {
+    height: 65px;
+}
+
 .cabecalho {
     position: absolute;
     right: 0;
@@ -19,9 +24,39 @@ body {
     right: 0;
     left: 0;
     display: flex;
-    top: 35px;
+    top: 5%;
     background-color: #F27979;
     color: #F27979;
+    height: 25px;
+}
+
+footer {
+    height: 60px;
+    bottom: 0px;
+}
+
+.rodape,
+.rodaperosa {
+    position: absolute;
+    display: flex;
+    right: 0;
+    left: 0;
+}
+
+.rodape {
+    background-color: #71734C;
+    color: #71734C;
+    height:65px;
+}
+
+.rodaperosa {
+    background-color: #F27979;
+    color: #F27979;
+    height: 25px;
+    display: flex;
+
+    
+
 }
 
 /* essa vai ser a área abaixo do cabeçalho, possuindo a barra de pesquisa e afins */
@@ -30,7 +65,7 @@ body {
     width: 500px;
     height: 20px;
     right: 0;
-    top: 250px;
+    top: 260px;
     background: #D9D9D9;
     border-radius: 57px;
     text-align: left;
@@ -67,7 +102,7 @@ body {
 
     height: 32px;
 
-    top: 350px;
+    top: 380px;
 
     left: 1000px;
 
@@ -151,6 +186,8 @@ body {
 /* parte dos produtos */
 .produtos {
     display: inline-flex;
+    justify-content: space-evenly;
+    margin: 10px;
 
 }
 
