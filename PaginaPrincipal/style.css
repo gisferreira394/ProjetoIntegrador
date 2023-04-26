@@ -227,3 +227,21 @@ footer {
     margin-left: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.novidade{
+    position: absolute;
+width: 402px;
+height: 239px;
+left: 188px;
+top: 1145px;
+
+background: #71734C;
+border-radius: 57px;
+position: absolute;
+width: 386px;
+height: 213px;
+left: 188px;
+top: 1171px;
+
+background: url(image);
+border-radius: 57px;
+}
