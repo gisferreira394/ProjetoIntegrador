@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro do funcionário</title>
     <link rel="stylesheet" href="estilo.css" type="text/css">
 </head>
 
@@ -12,32 +12,35 @@
         <div class="page">
             <form method="POST" class="formLogin">
         <div class="typewriter">
-        <h1 class="h1"> Cadastro do funcionário </h1>
+        <h1 class="h1"> Cadastro de funcionário </h1>
         <p>Digite os seus dados para se cadastrar</p>
     </div>
     <br>
         <form class="formulario" action="#" method="post">
         
             <p> 
-                <label class="nome"for="nome"><b>Nome </b></label> <br>
+                <label class="nome"for="nome"><b>Nome: </b></label>
                 <input id="nome" name="nome" required placeholder="Nome e Sobrenome"> 
     
             </p>
+
+<p> 
+    <label class="cpf"for="nome"><b>CPF: </b></label>
+    <input class="cpf" type="tel" placeholder="CPF"><br> </p>
+
             <p>
-                <label class="email"for="email"><b>Email </b></label> <br>
+                <label class="email" for="email"> <b>E-mail: </b></label>
                 <input id="email" type="email" name="email" placeholder="usuario@empresa.com"> 
             </p>
-            <label class="cpf" for="CPF"> <b>CPF </b></label> <br>
-             <input id="cpf" name="cpf" required placeholder="CPF"> 
+    
             <p>
-                <label class="senha" for="senha"><b>Senha </b> </label> <br>
+                <label class="senha" for="senha"><b>Senha: </b> </label>
                 <input id="senha" type="password" name="senha" required maxlength="6">
             </p>
     
-            <p> <label class="idade" for="idade"><b>Idade </b> </label> <br>
-                <input class="idade" type="number" placeholder="idade" min="15" max="99"><br><br>
-
-                <label class="data" for="nascimento"><b>Data de Nascimento </b></label> <br>
+            <p>
+                <input class="idade" type="number" placeholder="idade" min="15" max="99"> - 
+                <label class="data" for="nascimento"><b>Data de Nascimento </b></label>
                 <input class="nascimento"  type="date" id="nascimento">
             </p>
    
@@ -77,21 +80,16 @@
             </p>
     
             <p>
-                <label class="tele" for="telefone"><b>Telefone </b></label> <br>
-                <input class="tele" type="tel" placeholder="Telefone"><br>
-
-                <label class="cep" for="cep"><b>CEP </b></label> <br>
+                <input class="tele" type="tel" placeholder="Telefone"><br><br>
                 <input class="site"type="url" placeholder="CEP"><br>
-
-                <label class="data" for="nascimento"><b>Complemento </b></label> <br>
-                <input class="comp"type="url" placeholder="Complemento"><br>
             <p>
-                <button class="botao" type="submit">Salvar</button>
-                <button class="botao" type="reset">Limpar</button>
+
+                <input type="submit" value="Salvar" class="botao" />
+                <input type="reset" value="Limpar" class="botao" /> 
+
             </p>
        
         </form>
         </div>
-    
 </body>
 </html>

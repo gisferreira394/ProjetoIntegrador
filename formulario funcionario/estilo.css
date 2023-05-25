@@ -38,69 +38,75 @@ text-align: center;
 
     #nome{
         
-        background-color: #F27979;
+        background-color: #ffffff;
         color:rgb(0, 0, 0);
-        height: 15px;
+        height: 25px;
     }
     
     #email{
-        background-color: #F27979;
+        background-color: #ffffff;
         color:rgb(0, 0, 0);
-        height: 15px;
+        height: 25px;
     }
     
     #senha{
-        background-color: #F27979;
+        background-color: #ffffff;
         color:rgb(0, 0, 0);
-        height: 15px;
+        height: 25px;
     }
     
     .tele{
-        background-color: #F27979;
+        background-color: #ffffff;
         color: rgb(1, 2, 2);
-        height: 15px;
+        height: 25px;
         align-items: center;
     }
     
+    .cpf{
+        background-color: #ffffff;
+        color: rgb(1, 2, 2);
+        height: 25px;
+        align-items: center;
+    }
     
     .nascimento{
-      background-color: #F27979;
+      background-color: #ffffff;
       color: black;
-      height: 15px;
+      height: 25px;
     }
     .botao{
-        background-color: #F27979;
+        background-color: #ffffff;
         color:rgb(0, 0, 0);
-        height: 15px;
+        height: 25px;
     }
     .botao{
-        background-color: #F27979;
+        background-color: #ffffff;
         color:rgb(6, 6, 7);
-        height: 15px;
+        height: 25px;
     }
     
       .obs{
-        background-color: #F27979;
+        background-color: #ffffff;
         color:rgb(0, 0, 0) ;
-        height: 15px; 
+        height: 25px; 
     }
     
     .idade{
-        background-color: #F27979;
+        background-color: #ffffff;
         color:rgb(10, 11, 12);
-        height: 15px;
+        height: 25px;
     }
     
     .nascimento{
-        background-color: #F27979(0, 0, 0);
+        background-color:#ffffff(0, 0, 0);
         color:rgb(12, 10, 10);
-        height: 15px;
+        height: 25px;
     }
     
     .semana{
-        background-color: #F27979;
+        background-color: #ffffff;
         color:rgb(0, 0, 0);
-        height: 15px;
+        height: 25px;
     }
     
     .email{
@@ -123,12 +129,28 @@ text-align: center;
         color: rgb(0, 0, 0);
     }
     .site{
-      background-color: #F27979;
+      background-color:#ffffff;
       color: rgb(0, 0, 0);
       height: 25px;
     }
-    .cep{
+
+    .formLogin input:focus {
+        border: 2px solid #71734C;
+    }
+
+    .botao{
         background-color: #F27979;
-        color:rgb(0, 0, 0);
-        height: 15px; 
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        border: none !important;
+        transition: all linear 160ms;
+        cursor: pointer;
+        margin: 0 !important;
+    }
+
+    .botao:hover {
+        transform: scale(1.05);
+        background-color: #d1a0a0;
+    
     }
